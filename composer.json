@@ -1,0 +1,18 @@
+{
+    "name": "vasiliy/oxr",
+    "autoload": {
+        "psr-4": {
+            "OpenExchangeRate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasiliy Nayanov"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "psr/simple-cache": "^3.0"
+    }
+}
